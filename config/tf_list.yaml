@@ -1,0 +1,160 @@
+transformations:
+  left_hand_tip:
+    pose_topic_name: "/arm_pose/left_finger_tip_pose"
+    tf_frame_id:
+      - "left_hand_tip"
+      - "left_hand_s"
+      - "left_hand_o"
+      - "left_hand_k"
+      - "left_hand_virtual_k"
+      - "left_hand_d"
+      - "left_hand_e1"
+      - "left_hand_base_link"
+      - "left_hand_link"
+      - "leftarm_sensor_link"
+      - "leftarm_fake_end_link"
+      - "leftarm_link7"
+      - "leftarm_link6"
+      - "leftarm_link5"
+      - "leftarm_link4"
+      - "leftarm_link3"
+      - "leftarm_link2"
+      - "leftarm_link1"
+      - "torso"
+
+  left_hand_ee:
+    pose_topic_name: "/arm_pose/left_end_effector_pose"
+    tf_frame_id:
+      - "leftarm_fake_end_link"
+      - "leftarm_link7"
+      - "leftarm_link6"
+      - "leftarm_link5"
+      - "leftarm_link4"
+      - "leftarm_link3"
+      - "leftarm_link2"
+      - "leftarm_link1"
+      - "torso"
+
+  right_hand_tip:
+    pose_topic_name: "/arm_pose/right_finger_tip_pose"
+    tf_frame_id:
+      - "right_hand_tip"
+      - "right_hand_s"
+      - "right_hand_o"
+      - "right_hand_k"
+      - "right_hand_virtual_k"
+      - "right_hand_d"
+      - "right_hand_e1"
+      - "right_hand_base_link"
+      - "right_hand_link"
+      - "rightarm_sensor_link"
+      - "rightarm_fake_end_link"
+      - "rightarm_link7"
+      - "rightarm_link6"
+      - "rightarm_link5"
+      - "rightarm_link4"
+      - "rightarm_link3"
+      - "rightarm_link2"
+      - "rightarm_link1"
+      - "torso"
+
+  right_hand_ee:
+    pose_topic_name: "/arm_pose/right_end_effector_pose"
+    tf_frame_id:
+      - "rightarm_fake_end_link"
+      - "rightarm_link7"
+      - "rightarm_link6"
+      - "rightarm_link5"
+      - "rightarm_link4"
+      - "rightarm_link3"
+      - "rightarm_link2"
+      - "rightarm_link1"
+      - "torso"
+
+  head_left_tag:
+    pose_topic_name: "/head_camera/left_tag_pose"
+    tf_frame_id:
+      - "mindvision1_tag_76_command"
+      - "mindvision1_tag_76"
+      - "mindvision1"
+      - "left_eye"
+      - "head_assembly_link"
+      - "neck_yaw"
+      - "neck_pitch"
+      - "neck_mount"
+      - "torso"
+
+  head_right_tag:
+    pose_topic_name: "/head_camera/right_tag_pose"
+    tf_frame_id:
+      - "mindvision1_tag_82_command"
+      - "mindvision1_tag_82"
+      - "mindvision1"
+      - "left_eye"
+      - "head_assembly_link"
+      - "neck_yaw"
+      - "neck_pitch"
+      - "neck_mount"
+      - "torso"
+
+  head_init_tag:
+    pose_topic_name: "/head_camera/init_tag_pose"
+    tf_frame_id:
+      - "mindvision1_tag_1_command"
+      - "mindvision1_tag_1"
+      - "mindvision1"
+      - "left_eye"
+      - "head_assembly_link"
+      - "neck_yaw"
+      - "neck_pitch"
+      - "neck_mount"
+      - "torso"
+
+  chest_init_tag:
+    pose_topic_name: "/chest_camera/init_tag_pose"
+    tf_frame_id:
+      - "chest_camera_color_optical_frame_tag_1_command"
+      - "chest_camera_color_optical_frame_tag_1"
+      - "chest_camera_color_optical_frame"
+      - "chest_camera_color_frame"
+      - "chest_camera_link"
+      - "chest_camera_bottom_screw_frame"
+      - "torso"
+
+  # chest_camera_pose:
+  #   pose_topic_name: "/chest_camera/pose"
+  #   tf_frame_id:
+  #     - "chest_camera_color_optical_frame"
+  #     - "chest_camera_color_frame"
+  #     - "chest_camera_link"
+  #     - "chest_camera_bottom_screw_frame"
+  #     - "torso"
+
+  # head_camera_pose:
+  #   pose_topic_name: "/head_camera/pose"
+  #   tf_frame_id:
+  #     - "mindvision1"
+  #     - "left_eye"
+  #     - "head_assembly_link"
+  #     - "neck_yaw"
+  #     - "neck_pitch"
+  #     - "neck_mount"
+  #     - "torso"
+
+  # left_hand_camera_pose:
+  #   pose_topic_name: "/left_hand_camera/pose"
+  #   tf_frame_id:
+  #     - "left_vs_camera_color_optical_frame"
+  #     - "left_vs_camera_color_frame"
+  #     - "left_vs_camera_link"
+  #     - "left_vs_camera_bottom_screw_frame"
+  #     - "leftarm_sensor_link"
+  #     - "leftarm_fake_end_link"
+  #     - "leftarm_link7"
+  #     - "leftarm_link6"
+  #     - "leftarm_link5"
+  #     - "leftarm_link4"
+  #     - "leftarm_link3"
+  #     - "leftarm_link2"
+  #     - "leftarm_link1"
+  #     - "torso"

@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="chest_camera_color_optical_frame_tag_12chest_camera_color_optical_frame_tag_1_command" args="   0.000   0.000   0.000  1.57080 1.57080 0.0 chest_camera_color_optical_frame_tag_1 chest_camera_color_optical_frame_tag_1_command 1" /> 
+    <node pkg="tf_to_pose" type="tf_to_pose_node" name="tf_to_pose_node"/> 
+</launch>

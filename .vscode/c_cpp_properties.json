@@ -1,0 +1,39 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/guri/Pibot/pibot_ws/devel/include/**",
+        "/home/guri/MM/mobile_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/guri/Pibot/pibot_ws/src/pibot_aviation/aviation_master/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/cartesian_compliance_controller/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/cartesian_controller_base/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/cartesian_controller_handles/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/cartesian_force_controller/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/cartesian_motion_controller/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/lib/fast_tf/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/gen3_ikfast/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/control/cartesian_controllers/joint_to_cartesian_controller/include/**",
+        "/opt/ros/melodic/share/julius/include/**",
+        "/home/guri/Pibot/pibot_ws/src/lib_functions/include/**",
+        "/home/guri/Pibot/pibot_ws/src/pibot_aviation/pibot_flight_planner/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/lib/pose_tf/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/OmoGen3/sensors/realsense-ros/realsense2_camera/include/**",
+        "/home/guri/MM/mobile_ws/src/R1Gen3-Ver.2/ros_control_boilerplate/include/**",
+        "/home/guri/MM/mobile_ws/src/rosserial/rosserial_server/include/**",
+        "/home/guri/MM/mobile_ws/src/rosserial/rosserial_test/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
